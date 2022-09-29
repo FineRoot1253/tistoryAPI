@@ -1,8 +1,8 @@
 package model
 
 type CategoryResult struct {
-	Status string       `json:"status"`
-	Item   CategoryItem `json:"item"`
+	Status string         `json:"status"`
+	Item   []CategoryItem `json:"item"`
 }
 
 type CategoryItem struct {
